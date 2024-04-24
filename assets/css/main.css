@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --header-height: 4rem;
+    --font-family-sans: 'Nunito', sans-serif;
+
+}
+
+.firebase-emulator-warning {
+    opacity: 0.5;
+    z-index: 0;
+    height: 0px;
+}
+
+@layer base {
+    * {
+        font-family: var(--font-family-sans);
+    }
+}
